@@ -11,21 +11,6 @@ package main;
  * - Mỗi đầu vào chỉ có duy nhất một cặp nghiệm hợp lệ.
  * - Không được sử dụng lại cùng một phần tử hai lần.
  * - Kết quả có thể trả về theo bất kỳ thứ tự nào.
- * 
- * 🧩 Ví dụ:
- * 
- * ▶ Ví dụ 1:
- *   Input: nums = [2,7,11,15], target = 9
- *   Output: [0,1]
- *   Giải thích: Vì nums[0] + nums[1] = 2 + 7 = 9 → trả về [0, 1].
- * 
- * ▶ Ví dụ 2:
- *   Input: nums = [3,2,4], target = 6
- *   Output: [1,2]
- * 
- * ▶ Ví dụ 3:
- *   Input: nums = [3,3], target = 6
- *   Output: [0,1]
  */
 
 public class TwoSum {
